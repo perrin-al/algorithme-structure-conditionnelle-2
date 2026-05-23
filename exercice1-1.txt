@@ -1,0 +1,19 @@
+Algorithme plus-grand-nombre;
+Var: 
+A,B:réels;
+Debut
+
+Affichez "Entrer un nombre réel";
+Saisir A;
+Afficher " Entrer un nombre réel";
+Saisir B;
+Si A>B alors :
+Afficher " A est le plus grand";
+Finsi
+Si B>A alors:
+Afficher " B est le plus grand";
+Finsi
+Si A=B alors
+Afficher " Le plus grand n'existe pas";
+Finsi 
+Fin
