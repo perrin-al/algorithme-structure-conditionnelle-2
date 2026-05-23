@@ -1,0 +1,16 @@
+Algorithme valeur-absolue;
+Var
+A,B,diff,valeur absolue: rééls;
+Debut 
+Afficher " Entrer un nombre réel";
+Saisir A;
+Afficher "Entrer un nombre réel";
+Saisir B;
+diff<--- A-B;
+Si diff<0 alors:
+valeur absolue <--- (-diff);
+Fin si 
+Si diff>0 alors : 
+valeur absolue <--- diff ;
+Fin si 
+Fin 
