@@ -1,0 +1,11 @@
+Algorithme âge;
+Var
+age,année:entiers;
+Début
+Afficher "Entrer une date de naissance";
+Saisir année;
+age<--- 2026-année;
+Si age<10 alors:
+Afficher " Cet enfant a moins de 10 ans ";
+Finsi
+Fin
